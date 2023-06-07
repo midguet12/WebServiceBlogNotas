@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "API para actividad de Sistemas en red",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/index.js"
@@ -10,7 +11,10 @@
   "author": "Zhircon",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
     "mysql2": "^3.3.2",
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.32.0"
   }
 }
